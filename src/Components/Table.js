@@ -53,9 +53,9 @@ const Table = () => {
             <th onClick={() => setToggle(!toggle)}>
               Date{' '}
               {toggle ? (
-                <i class='fas fa-chevron-up fa-sm'></i>
+                <i className='fas fa-chevron-up fa-sm'></i>
               ) : (
-                <i class='fas fa-chevron-down fa-sm'></i>
+                <i className='fas fa-chevron-down fa-sm'></i>
               )}
             </th>
             <th>Status</th>
@@ -63,7 +63,7 @@ const Table = () => {
         </thead>
 
         {loading ? (
-          <div className='loader'>Please Wait..</div>
+          <td className='loader'>Please Wait..</td>
         ) : (
           <tbody>
             {data?.map((cust) => (

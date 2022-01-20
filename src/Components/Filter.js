@@ -37,7 +37,7 @@ const Filter = () => {
     <>
       <span className='dropdown'>
         <button onClick={dropdownMethod} className='dropbtn'>
-          <i class='fas fa-sort-amount-down-alt'></i> Filter
+          <i className='fas fa-sort-amount-down-alt'></i> Filter
         </button>
         <div id='myDropdown' className='dropdown-content'>
           <li onClick={() => filter('')}>None</li>
